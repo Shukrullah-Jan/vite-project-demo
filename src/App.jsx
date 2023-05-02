@@ -3,7 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
-
+import BatteryStatus from "./components/BatteryStatus";
+import FileApi from "./components/FileApi";
+import NotificationApi from "./components/NotificationApi";
+import VibrationApi from "./components/VibrationApi";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -25,6 +28,13 @@ function App() {
         </button>
       </div>
       <p className="read-the-docs">I would love to Update my site easily</p>
+
+      <div className="container">
+        <BatteryStatus />
+        <VibrationApi />
+        <NotificationApi />
+        <FileApi />
+      </div>
     </>
   );
 }

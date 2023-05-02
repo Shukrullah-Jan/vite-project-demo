@@ -1,0 +1,24 @@
+.battery-div,
+.vibration-div,
+.notif-cont,
+.file-cont {
+  background-color: lightblue;
+  color: black;
+  margin: 1rem;
+  padding: 10px;
+
+  border: 1px solid green;
+  border-radius: 10px;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+  button {
+    margin-right: 0.2rem;
+    padding: 5px 10px;
+  }
+
+  .img {
+    width: 200px;
+  }
+}
