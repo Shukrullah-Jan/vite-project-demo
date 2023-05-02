@@ -24,7 +24,7 @@ function App() {
           count is {count}
         </button>
       </div>
-      <p className="read-the-docs">This is the last update</p>
+      <p className="read-the-docs">I would love to Update my site easily</p>
     </>
   );
 }
